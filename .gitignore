@@ -466,3 +466,12 @@ TSWLatexianTemp*
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
  
+
+# --- CodeCraft app (code/) -------------------------------
+node_modules/
+code/frontend/dist/
+code/backend/dist/
+# Keep environment variables out of version control
+.env
+code/judge0/*.zip
+code/judge0/judge0-v1.13.1.zip.1

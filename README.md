@@ -1,45 +1,30 @@
-# UCS503P Project Template
+# CodeCraft
 
-This is a project template for UCS503P Project (2026-27
-ODD). 
+**A gamified DSA practice platform for Thapar Institute of Engineering & Technology**
 
-There are 3 reports in LaTeX format, namely *a*)
-Project Proposal, *b*) Project Report Prototype Stage,
-and *c*) Project Report Final -- each in their
-respective folders.
+UCS503P Project (2026-27 ODD). Solve problems, earn a Performance Score, claim
+territory on a live map of the campus, and challenge rivals in real-time 1v1
+contests.
 
-Journals are stacked under the folder `journals`, one
-folder for each team member.  A sample entry has been
-made for example.
+**Team:** Abhavya Jha, Dev, Udhalak Sharma
 
-The source code is contained within the folder `code`.
+## Where things are
 
-The documentation is under folder `docs`.
-
-All other aspects of code organisation are left to the
-discretion of the user(s).
-
+| What | Where |
+|---|---|
+| Source code (React + NestJS) | [`code/`](./code) |
+| Full project README, setup and run guide | [`code/README.md`](./code/README.md) |
+| Deployment runbook | [`code/DEPLOYMENT.md`](./code/DEPLOYMENT.md) |
+| System design documentation (MkDocs) | [`docs/`](./docs) |
+| Journals, one folder per member | [`journals/`](./journals) |
+| Project proposal / prototype report / final report | [`project-proposal/`](./project-proposal), [`project-report-prototype-stage/`](./project-report-prototype-stage), [`project-report-final/`](./project-report-final) |
 
 ## Docs
 
-As of now, the `docs` is just an organised collection
-of markdown (`md`) files.  But the build procedure is
-using [`mkdocs`](https://google.com/search?q=mkdocs)
-backend.  As a result, any commit into the `master`
-branch of github repository would result in CI/CD based
-build and deployment of the documentation including the
-journals.
+The documentation under `docs/` is built with
+[`mkdocs`](https://www.mkdocs.org/). Any commit to the `master` branch triggers
+the CI/CD build and deployment of the docs. For a local preview run
+`make docs`.
 
-For a local DEV-version of the docs for viewing and
-testing, install the local env and issue the following
-command:
-
-``` shell
-make docs
-```
-
-### Local `env` for `docs`
-
-``` shell
-
-```
+The commit history of the application code was carried over from the team's
+original repository, <https://github.com/Ajha2005/CodeCraft>.
