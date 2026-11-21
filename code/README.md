@@ -306,7 +306,6 @@ code/
 │       ├── components/          # Nav, toasts, shared game UI kit (ui/)
 │       ├── pages/                # Scoring dashboard (commander profile)
 │       └── lib/                  # API client, Monaco setup, sockets, toasts
-├── judge0/                  # Legacy Judge0 config (superseded by Piston, kept for reference)
 ├── ../docs/                 # Full system design docs (MkDocs source, at the repo root)
 ├── DEPLOYMENT.md            # Production topology + runbook
 └── mkdocs.yml
